@@ -103,6 +103,7 @@ char Reference::_ReadByte(std::fstream *fs)
 	return base[0];
 }
 
+
 std::string Reference::_ReadLine(std::fstream *fs)
 {
 	// Return a line of text from the file stream

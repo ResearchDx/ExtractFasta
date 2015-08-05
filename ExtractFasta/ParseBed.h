@@ -42,6 +42,7 @@ public:
 
 	// Set the bed file, given the file name as a string
 	void set_bed_file(std::string fn);
+	
 	BedEntry* ReadBed();
 
 	~ParseBed();
